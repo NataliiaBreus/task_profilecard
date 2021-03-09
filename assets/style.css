@@ -1,0 +1,94 @@
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  background-image: url(./images/background.jpg);
+  background-size: cover;
+  min-height: 100vh;
+  width: 100%;
+}
+.card-wrapper {
+  background-color: #242424;
+  width: 300px;
+  height: auto;
+  margin-left: 550px;
+}
+.profile-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+.photo-wrapper {
+  --photo-size: 120px;
+  width: var(--photo-size);
+  height: var(--photo-size);
+  border-radius: 50%;
+  overflow: hidden;
+  border: 3px solid #818282;
+  margin-left: 80px;
+  -webkit-box-shadow: -1px 1px 10px 1px rgba(129,130,130,0.88);
+-moz-box-shadow: -1px 1px 10px 1px rgba(129,130,130,0.88);
+box-shadow: -1px 1px 10px 1px rgba(129,130,130,0.88);
+}
+.user-name {
+  color: #a7a5a2;
+  font-family: sans-serif;
+  padding-top: 20px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+}
+.user-position {
+  color: #069e1f;
+  text-align: center;
+  font-family: sans-serif;
+  padding-top: 15px;
+  font-size: 15px;
+}
+.user-address {
+  color: #6e7b86;
+  text-align: center;
+  font-family: sans-serif;
+  padding-top: 15px;
+  padding-bottom: 12px;
+  font-size: 12px;
+}
+.line {
+  color: #8d8d8d;
+  width: 210px;
+}
+.user-followers {
+  color: #8d8d8d;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+}
+.footer {
+  display: flex;
+  justify-content: center;
+}
+.icon {
+  background: #738a95;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+.photo-followers {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 10px;
+}
+.follower-image {
+  width: 30px;
+  height: 30px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 50%;
+}
+.image-color {
+  background-color: white;
+}
